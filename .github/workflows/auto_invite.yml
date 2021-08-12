@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Invite on label
-        uses: LinuxHub-Group/invite-on-label@v1.3
+        uses: LinuxHub-Group/invite-on-label@v1.3.2
         with:
           organization: LinuxHub-Group
           label: invite me to the organization
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: 'Welcome to the Org.'
+          comment: '欢迎来到linuxhub!'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
