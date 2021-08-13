@@ -12,6 +12,6 @@ jobs:
           organization: LinuxHub-Group
           label: invite me to the organization
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: '欢迎来到LinuxHub!'
+          comment: '欢迎来到 LinuxHub！'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
